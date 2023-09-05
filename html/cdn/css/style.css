@@ -1,0 +1,78 @@
+@font-face {
+    font-family: Futura;
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+    src: url("cdn/fonts/futura/futura_n4.df36ce3d9db534a4d7947f4aa825495ed740e4104d17.woff2?h1=eW91bG92ZXNrLmNvbQ&amp;h2=eWx5bHNrLmNvbQ&amp;h3=eWx5b3Vsb3ZlLmNvbQ&amp;h4=eW91bG92ZXlsLmNvbQ&amp;h5=eW91bG92ZXNrLmFjY291bnQubXlzaG9waWZ5LmNvbQ&amp;hmac=010ff09b7c974d72ba28bfe3db8ab6069c23ee4007161bccb4f4670328b4d05b") format("woff2"),
+   url("cdn/fonts/futura/futura_n4.6bce24beb4ba1ff4ddeb20f7cd6e2fa513a3d6ec3828.woff?h1=eW91bG92ZXNrLmNvbQ&amp;h2=eWx5bHNrLmNvbQ&amp;h3=eWx5b3Vsb3ZlLmNvbQ&amp;h4=eW91bG92ZXlsLmNvbQ&amp;h5=eW91bG92ZXNrLmFjY291bnQubXlzaG9waWZ5LmNvbQ&amp;hmac=b6f19ba74764115885f094f83b1623b29df91901b7b972b14e628344d7380aa9") format("woff");
+}
+
+@font-face {
+ font-family: "Twentieth Century";
+ font-weight: 400;
+ font-style: normal;
+ font-display: swap;
+ src: url("cdn/fonts/twentieth_century/twentiethcentury_n4.1a7b2b68023505e1927302cc60a155187098ca59694e.woff2?h1=eW91bG92ZXNrLmNvbQ&amp;h2=eWx5bHNrLmNvbQ&amp;h3=eWx5b3Vsb3ZlLmNvbQ&amp;h4=eW91bG92ZXlsLmNvbQ&amp;h5=eW91bG92ZXNrLmFjY291bnQubXlzaG9waWZ5LmNvbQ&amp;hmac=4016e385546ae9492b2450fa0a6bd3693be93ba62b2823c9f5db58e8ba4edf1f") format("woff2"),
+      url("cdn/fonts/twentieth_century/twentiethcentury_n4.2bd9ba3193feaaeabefe6059cf0ba7e11c41e8106eb7.woff?h1=eW91bG92ZXNrLmNvbQ&amp;h2=eWx5bHNrLmNvbQ&amp;h3=eWx5b3Vsb3ZlLmNvbQ&amp;h4=eW91bG92ZXlsLmNvbQ&amp;h5=eW91bG92ZXNrLmFjY291bnQubXlzaG9waWZ5LmNvbQ&amp;hmac=e64e3ad8a2da3dbd6df839bc0b37462c36a76599f6fc5396d0e48de4acd84d03") format("woff");
+}
+
+
+@font-face {
+ font-family: "Twentieth Century";
+ font-weight: 600;
+ font-style: normal;
+ font-display: swap;
+ src: url("cdn/fonts/twentieth_century/twentiethcentury_n6.0d3b76303d4b4a3612edbc69654ac2a8ca6886a45c53.woff2?h1=eW91bG92ZXNrLmNvbQ&amp;h2=eWx5bHNrLmNvbQ&amp;h3=eWx5b3Vsb3ZlLmNvbQ&amp;h4=eW91bG92ZXlsLmNvbQ&amp;h5=eW91bG92ZXNrLmFjY291bnQubXlzaG9waWZ5LmNvbQ&amp;hmac=a33bc48bf7e007ff3a8f128e99853156b3b6bf1fe9e08d950013feaa10ac9281") format("woff2"),
+      url("cdn/fonts/twentieth_century/twentiethcentury_n6.c396df293741c34c7c780d8677bc681d3c3ecd426426.woff?h1=eW91bG92ZXNrLmNvbQ&amp;h2=eWx5bHNrLmNvbQ&amp;h3=eWx5b3Vsb3ZlLmNvbQ&amp;h4=eW91bG92ZXlsLmNvbQ&amp;h5=eW91bG92ZXNrLmFjY291bnQubXlzaG9waWZ5LmNvbQ&amp;hmac=1cc35c2b1dfd3a182c0599af71129d9b354edba98affaf53e044b379405b48af") format("woff");
+}
+
+:root {
+    --typeHeaderPrimary: Futura;
+    --typeHeaderFallback: sans-serif;
+    --typeHeaderSize: 36px;
+    --typeHeaderWeight: 400;
+    --typeHeaderLineHeight: 1;
+    --typeHeaderSpacing: 0.0em;
+
+    --typeBasePrimary:"Twentieth Century";
+    --typeBaseFallback:sans-serif;
+    --typeBaseSize: 18px;
+    --typeBaseWeight: 400;
+    --typeBaseSpacing: 0.025em;
+    --typeBaseLineHeight: 1.4;
+
+    --typeCollectionTitle: 20px;
+
+    --iconWeight: 2px;
+    --iconLinecaps: miter;
+
+    
+      --buttonRadius: 0px;
+    
+
+    --colorGridOverlayOpacity: 0.1;
+}
+
+.placeholder-content {
+    background-image: linear-gradient(100deg, #ffffff 40%, #f7f7f7 63%, #ffffff 79%);
+}
+
+ @media only screen and (min-width: 769px) and (max-width: 959px) {
+  .footer__item--1494301487048 {
+    width: 50%;
+    padding-top: 40px;
+  }
+
+  .footer__item--1494301487048:nth-child(2n + 1) {
+    clear: left;
+  }
+}
+
+@media only screen and (min-width: 960px) {
+  .footer__item--1494301487048 {
+    width: 95%;
+  }
+}
+.footer__logo a {
+  height: 20px;
+}
